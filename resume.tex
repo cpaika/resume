@@ -1,0 +1,49 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=1in]{geometry}
+
+\titleformat{\section}
+{\bfseries\lowercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}[runin]
+{\bfseries\lowercase}
+{}
+{0em}
+{}
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries
+\theauthor\\}
+\vspace{.25em}
+%\vspace{20em} why doesnt this work
+paika.christopher@gmail.com --- https://paika.tech
+\end{center}
+}
+
+\begin{document}
+\title{Resume}
+\author{Chris Paika}
+
+\maketitle
+\section{Technical Skills}
+\subsection{Programming Languages}
+Java, Javascript
+\subsection{Frameworks}
+Spring Boot
+\subsection{Cloud}
+AWS
+\section{Experience}
+\subsection{Constant Contact}
+I worked at Constant Contact
+\section{Education}
+UMass Amherst
+\section{Hobbies}
+
+% 20% Time projects?
+\end{document}
